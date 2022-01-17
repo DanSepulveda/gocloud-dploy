@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node server.ts",
-    "serve": "pm2 start ./dist/server.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "node": "node server.js",
+    "serve": "pm2 start server.js"
   },
   "keywords": [],
   "author": "",
